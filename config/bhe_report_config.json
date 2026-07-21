@@ -1,0 +1,36 @@
+{
+  "tenant_url": "https://your-tenant.bloodhoundenterprise.io",
+  "auth": {
+    "api_token_id": "YOUR_API_TOKEN_ID",
+    "api_token_key": "YOUR_API_TOKEN_KEY"
+  },
+  "client": {
+    "verify_ssl": true,
+    "timeout_seconds": 600,
+    "prefer_wait_seconds": 120,
+    "query_endpoint": "/api/v2/graphs/cypher"
+  },
+  "report": {
+    "customer_name": "Customer Name",
+    "assessment_name": "BloodHound Enterprise Identity Risk Report",
+    "prepared_by": "SpecterOps",
+    "prepared_for": "Executive Leadership and Identity Security Stakeholders",
+    "version": "1.5",
+    "classification": "Confidential",
+    "output_basename": "BHE_Identity_Risk_Report",
+    "max_evidence_rows": 10,
+    "include_no_result_sections": false,
+    "include_collection_notes": true,
+    "attack_path_window_days": 30,
+    "theme": "executive"
+  },
+  "branding": {
+    "specterops_logo_path": "assets/SO-Logo_White_Tagline.png",
+    "force_embedded_specterops_logo": true,
+    "customer_logo_source": "",
+    "customer_logo_path": "",
+    "cover_hero_image_path": "",
+    "show_specterops_wordmark_if_logo_missing": true
+  },
+  "extensions_config": "config/extensions.json"
+}

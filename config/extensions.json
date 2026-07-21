@@ -1,0 +1,114 @@
+{
+  "extensions": [
+    {
+      "id": "github",
+      "platform": "GitHub",
+      "enabled": true,
+      "module": "plugins/github.py",
+      "saved_search_zip": "searches/GitHub_searches.zip",
+      "title": "GitHub Identity & Supply Chain Risk",
+      "risk_theme": "GitHub Identity & Supply Chain Risk",
+      "priority": 8,
+      "severity": "High",
+      "max_rows_per_search": 25,
+      "include_control_query": true,
+      "selected_searches": [
+        "GitHub: Secrets Reachable by User",
+        "GitHub: Repos Vulnerable to Workflow Secret Exfiltration",
+        "GitHub: Branch Protection - No Code Owner Reviews",
+        "GitHub: Members Can Change Repository Visibility",
+        "GitHub: Secret Scanning Push Protection Disabled"
+      ],
+      "executive_summary": "GitHub relationships may expose source code, workflows, secrets, or organization controls to identity-based abuse.",
+      "business_impact": "GitHub access can affect source code, software delivery workflows, deployment credentials, and production-facing automation.",
+      "why_this_matters": "Developer-platform privileges can become control-plane identity paths when they influence code, workflows, secrets, or deployments.",
+      "technical_summary": "Curated GitHub saved searches assess secret reachability, workflow risk, branch protections, repository governance, and organization-wide Actions policy.",
+      "insight": "GitHub becomes an identity control point when repository access, workflows, secrets, or organization administration can influence production systems.",
+      "immediate_actions": [
+        "Review secret reachability and organization-wide Actions policy.",
+        "Prioritize branch protection and repository visibility weaknesses.",
+        "Reduce unnecessary standing GitHub administration."
+      ],
+      "near_term_actions": [
+        "Standardize repository governance and workflow permissions.",
+        "Require effective branch protection and code-owner review where appropriate."
+      ],
+      "strategic_actions": [
+        "Include GitHub relationships in recurring identity attack-path reviews."
+      ]
+    },
+    {
+      "id": "okta",
+      "platform": "Okta",
+      "enabled": true,
+      "module": "plugins/okta.py",
+      "saved_search_zip": "searches/Okta_searches.zip",
+      "title": "Okta Workforce Identity Risk",
+      "risk_theme": "Okta Workforce Identity Risk",
+      "priority": 9,
+      "severity": "High",
+      "max_rows_per_search": 25,
+      "selected_searches": [
+        "Okta: Read Client Secrets of Privileged Applications",
+        "Okta: Unrotated Active Access Keys on Privileged Apps",
+        "Okta: Password and MFA Permissions",
+        "Okta: Privileged Users without MFA (Direct)",
+        "Okta: Privileged Users without MFA (Indirect)",
+        "Okta: Synced Principals with Privileged Access (Direct) - Hybrid Edges",
+        "Okta: Synced Principals with Privileged Access (Indirect) - Hybrid Edges",
+        "Okta: Principals with Admin Console Access"
+      ],
+      "executive_summary": "Okta administrative, credential, MFA, and hybrid-identity relationships may expose workforce identity and application access.",
+      "business_impact": "Okta controls workforce authentication, SaaS assignments, administrative roles, and application access across the enterprise.",
+      "why_this_matters": "Compromise of privileged Okta principals or credentials can provide broad access to identities, applications, and authentication controls.",
+      "technical_summary": "Curated Okta saved searches assess client secrets, stale keys, password and factor administration, MFA gaps, hybrid privileged access, and console access.",
+      "insight": "Okta is a workforce identity control plane; administrative and credential paths can have tenant-wide impact.",
+      "immediate_actions": [
+        "Require strong MFA for privileged identities.",
+        "Rotate stale keys and restrict access to privileged application secrets.",
+        "Review principals with password, factor, and console administration."
+      ],
+      "near_term_actions": [
+        "Review synced and hybrid principals with privileged access.",
+        "Reduce standing Okta administrative assignments."
+      ],
+      "strategic_actions": [
+        "Include Okta in recurring identity governance and attack-path reviews."
+      ]
+    },
+    {
+      "id": "jamf",
+      "platform": "Jamf",
+      "enabled": true,
+      "module": "plugins/jamf.py",
+      "saved_search_zip": "searches/Jamf_searches.zip",
+      "title": "Jamf Device Administration Risk",
+      "risk_theme": "Jamf Device Administration Risk",
+      "priority": 10,
+      "severity": "High",
+      "max_rows_per_search": 25,
+      "selected_searches": [
+        "Jamf: Account to Account Attack Paths",
+        "Jamf: Account to Tenant Edges",
+        "Jamf: All Account Paths",
+        "Jamf: All Computers"
+      ],
+      "executive_summary": "Jamf account, tenant, and managed-device relationships may create administrative paths across the endpoint estate.",
+      "business_impact": "Jamf can control managed endpoints, software deployment, configuration, and devices used by privileged personnel.",
+      "why_this_matters": "Device-management privileges can become identity paths to sensitive endpoints and can expand the blast radius of an account compromise.",
+      "technical_summary": "Curated Jamf saved searches assess account-to-account paths, account-to-tenant control, broader account paths, and managed-device scope.",
+      "insight": "Jamf is an endpoint administration control plane; account and tenant relationships can affect a broad managed-device population.",
+      "immediate_actions": [
+        "Review account-to-tenant control and high-impact account paths.",
+        "Validate administrative access to sensitive managed endpoints."
+      ],
+      "near_term_actions": [
+        "Reduce standing Jamf privileges and review service/API accounts.",
+        "Validate ownership and management scope for privileged workstations."
+      ],
+      "strategic_actions": [
+        "Include device-management administration in recurring identity risk reviews."
+      ]
+    }
+  ]
+}

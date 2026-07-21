@@ -1,0 +1,99 @@
+{
+  "package": "BloodHound Enterprise Identity Risk Report - PDF Edition",
+  "release_version": "1.5 FINAL",
+  "internal_build": "1.5.44",
+  "canonical_notebook": "Identity_Risk_Report_PDF_v1_5_FINAL.ipynb",
+  "file_count": 18,
+  "files": [
+    {
+      "path": "Identity_Risk_Report_PDF_v1_5_FINAL.ipynb",
+      "size_bytes": 779441,
+      "sha256": "0c2f99865d581ff07c7552d481871f2bae997d569a95054192a55307269ca665"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 1059,
+      "sha256": "58190f39cf29a509da6b57078a9ffe552c8d93401243403e940d71b57b43a38a"
+    },
+    {
+      "path": "assets/SO-Logo_PurpleGreen.png",
+      "size_bytes": 23101,
+      "sha256": "3aa21f1dc8edf11a31c4689b7aeeafa9fc225aee6f569edbace200a4905d3378"
+    },
+    {
+      "path": "assets/SO-Logo_White_Tagline.png",
+      "size_bytes": 30911,
+      "sha256": "1cb6ec25678c2c33e79399fc64548cfc71ccd8dacbdc11f886c769102d527b2f"
+    },
+    {
+      "path": "config/bhe_report_config.example.json",
+      "size_bytes": 1158,
+      "sha256": "2174a6dea2a430822fdf4884f9325d7e31fadd1395d75f559717da42e5f08276"
+    },
+    {
+      "path": "config/bhe_report_config.json",
+      "size_bytes": 1158,
+      "sha256": "2174a6dea2a430822fdf4884f9325d7e31fadd1395d75f559717da42e5f08276"
+    },
+    {
+      "path": "config/extensions.json",
+      "size_bytes": 6202,
+      "sha256": "bdb71bf362f2185afcca46c2fee60fdd26d4b37cd1599e9ab1488219ce53fcd3"
+    },
+    {
+      "path": "docs/DEVELOPMENT.md",
+      "size_bytes": 751,
+      "sha256": "54083bf5e10448d55c84587025c4bbe50970f6b93119e154650f526513bb97b5"
+    },
+    {
+      "path": "output/README.md",
+      "size_bytes": 156,
+      "sha256": "3f20a53b6574ec7d000f57af29a50284e7190636b8045e508dff243c3326f3cc"
+    },
+    {
+      "path": "plugins/github.py",
+      "size_bytes": 16895,
+      "sha256": "3b864370ee64433e328398dd100f2ed9012cfb84943c88c42bf8cd76fa12bebf"
+    },
+    {
+      "path": "plugins/jamf.py",
+      "size_bytes": 12236,
+      "sha256": "9f5fe3bdedd2cc1a032677c8565149208a981a7947c1a3a6dccd59a32949b009"
+    },
+    {
+      "path": "plugins/okta.py",
+      "size_bytes": 13342,
+      "sha256": "82169e8390b455e38b525e0970855f7a390e386bf5e01dbc117f8b4ee4234902"
+    },
+    {
+      "path": "plugins/plugin_base.py",
+      "size_bytes": 2131,
+      "sha256": "fa3019f88eee78be558a7a4c6f673a04d63a2cb1e94120301605fc537122d0ab"
+    },
+    {
+      "path": "plugins/plugin_loader.py",
+      "size_bytes": 3239,
+      "sha256": "ff6aaa2ce7a1a73b3016f594fa03af6b1f78dfa12c28daa4d9d9a2b048f514dd"
+    },
+    {
+      "path": "requirements.txt",
+      "size_bytes": 86,
+      "sha256": "4edc02f80c2b55180cf64a859e8b40013fdeeaec7d8af394f336d0f0696db516"
+    },
+    {
+      "path": "searches/GitHub_searches.zip",
+      "size_bytes": 26245,
+      "sha256": "af5bce09d1ea2973bf3788f8f145856d29a80a818dd5262c31ab2c7df5bb761e"
+    },
+    {
+      "path": "searches/Jamf_searches.zip",
+      "size_bytes": 6570,
+      "sha256": "a86dd6988a5e03150091f583148ffc13736e8067554a40f04ae631fdeae2c075"
+    },
+    {
+      "path": "searches/Okta_searches.zip",
+      "size_bytes": 16906,
+      "sha256": "4eeb47acaa1c8322beafdd8045f185066e18ec9e8a92eee625e9289777adf0a6"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+pandas>=2.0
+requests>=2.31
+openpyxl>=3.1
+ipywidgets>=8.0
+nbformat>=5.9
+reportlab>=4.0
