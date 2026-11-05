@@ -20,6 +20,6 @@ Customer logos and cover images are optional. Blank branding fields use the embe
 
 ## Release baseline
 
-Version **1.5 FINAL** is the frozen production baseline for the PDF Edition. It includes the finalized Executive Dashboard, Identity Risk Themes, connected-platform reporting, Privilege Zone Intelligence summary reporting, and Evidence Workbook generation.
+Version **2.0 FINAL** is the frozen production baseline for the PDF Edition. It includes the finalized Executive Dashboard, Identity Risk Themes, connected-platform reporting, Privilege Zone Intelligence summary reporting, and Evidence Workbook generation.
 
-Internal build lineage: **v1.5.44**.
+Internal build lineage: **v1.5.44+**.
