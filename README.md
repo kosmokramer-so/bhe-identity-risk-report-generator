@@ -1,6 +1,6 @@
 # BloodHound Enterprise Identity Risk Report — PDF Edition
 
-Production package for **Version 1.5 FINAL**.
+Production package for **Version 2.0 FINAL**.
 
 ## Package entry point
 
